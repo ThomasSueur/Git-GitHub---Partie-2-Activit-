@@ -3,7 +3,6 @@
 <title>phpinfo.php</title>
 </head>
 <body>
- ☎
 <?php
 
 // vérifie que le paramètre year n'est pas vide
@@ -28,6 +27,8 @@ echo "<a href=\"exercice-2-1-a.php?year=\">vide</a><br />";
 echo "<a href=\"exercice-2-1-a.php?year=2000\">2000</a><br />";
 echo "<a href=\"exercice-2-1-a.php?year=2007\">2007</a><br />";
 echo "<a href=\"exercice-2-1-a.php?year=year\">invalide</a><br />";
+ 
+echo "bonjour correcteur! <br />";
 
 ?>
 </body>
